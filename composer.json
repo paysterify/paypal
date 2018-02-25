@@ -1,0 +1,21 @@
+{
+    "name": "paysterify/paypal",
+    "authors": [
+        {
+            "name": "eklundkristoffer",
+            "email": "eklukris@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Paysterify\\Paypal\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Paysterify\\Paypal\\PaysterifyPaypalServiceProvider"
+            ]
+        }
+    }
+}
